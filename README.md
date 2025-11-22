@@ -1,1 +1,73 @@
-# mwds
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광고용 랜딩페이지</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .container {
+            max-width: 480px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .logo {
+            max-width: 150px;
+            margin: 30px auto 20px;
+        }
+        .hero-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 26px;
+            color: #333333;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 18px;
+            color: #555555;
+            margin-bottom: 30px;
+        }
+        a.button {
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 18px 0;
+            background-color: #03c75a;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        a.button:hover {
+            background-color: #02a44d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 로고 이미지 (예시 이미지) -->
+        <img src="https://via.placeholder.com/150x50?text=Logo" alt="회사 로고" class="logo">
+        
+        <!-- 대표 이미지 (예시 이미지) -->
+        <img src="https://via.placeholder.com/400x300?text=대표+이미지" alt="서비스 이미지" class="hero-img">
+        
+        <h1>저희 서비스를 확인해보세요!</h1>
+        <p>아래 버튼을 눌러 네이버 업체 페이지에서 자세한 정보를 확인할 수 있습니다.</p>
+        
+        <!-- 네이버 업체페이지 URL -->
+        <a href="https://place.naver.com/yourbusiness" target="_blank" class="button">네이버 업체페이지로 이동</a>
+    </div>
+</body>
+</html>
